@@ -1,0 +1,14 @@
+pip --upgrade
+mpi4py==3.1.6
+torch==2.3.1
+torchvision==0.18.1
+packaging
+wheel
+ninja==1.11.1
+flash-attn==2.5.9.post1 --no-build-isolation
+sentencepiece==0.2.0
+triton==2.3.1
+flask-restful
+causal-conv1d>=1.4.0
+mamba-ssm==2.2.2
+mosaicml-streaming==0.7.6
